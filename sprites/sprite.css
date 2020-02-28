@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.facebook {
+    width: 16px;
+    height: 28px;
+    background-position: -20px -20px;
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    background-position: -76px -20px;
+}
+
+.twitter {
+    width: 26px;
+    height: 25px;
+    background-position: -141px -20px;
+}
+
+.vk {
+    width: 35px;
+    height: 21px;
+    background-position: -210px -20px;
+}
