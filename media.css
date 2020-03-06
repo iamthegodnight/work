@@ -1,3 +1,52 @@
+@media (max-width: 1655px)	{
+	.hashtag	{
+		transform: rotate(16.5deg) translateX(12.7vw) translateY(32.4vw);
+	}
+
+	.slash	{
+		transform: rotate(-20.8deg) translateX(10vw) translateY(48.4vw);
+	}
+
+	.div2	{
+		transform: rotate(21deg) translateX(56.3vw) translateY(16.4vw);
+	}
+}
+
+@media (max-width: 1170px)	{
+	.who__name	{
+		font-size: 70px;
+	}
+
+	.man {
+		position: absolute;
+    top: 57px;
+    left: -30px;
+    z-index: 1;
+	}
+
+	.background	{
+		position: absolute;
+    top: 64px;
+    left: -75px;
+	}
+
+	.services__column {
+		flex: 0 0 50%;
+	}
+
+	.item-services__tools	{
+		position: relative;
+    top: 4px;
+    right: -25px;
+	}
+
+	.item-services__responsive	{
+		position: relative;
+    top: 4px;
+    left: 16px;
+	}
+}
+
 @media (min-width: 1025px)	{
 	.swiper-pagination {
 		display: none;
@@ -69,6 +118,7 @@
 
 	.who__button {
 		margin-left: 20px;
+		margin-bottom: 229px;
 	}
 
 	.button {
@@ -84,12 +134,12 @@
 
 	.man	{
     top: 56px;
-    left: 23px;
+    left: 24px;
 	}
 
 	.background	{
-		top: 169px;
-    left: -51px;
+		top: 168px;
+    left: -50px;
 	}
 
 	/*  Tags  */
@@ -422,22 +472,6 @@
 		flex: 0 0	100%;
 	}
 
-	.item-services__tools	{
-		all: inherit;
-	}
-
-	.item-services__responsive	{
-		all: inherit;
-	}
-
-	.item-services__programming	{
-		all: inherit;
-	}
-
-	.item-services__coding	{
-		all: inherit;
-	}
-
 	.ad {
 		left: 0;
 	}
@@ -699,7 +733,7 @@
 
 	.call {
 		position: relative;
-    left: 41px;
+    left: 57px;
     top: 6px;
 		font-size: 0;
   	width: 26px;

@@ -17,11 +17,8 @@ $(document).ready(function(){
       1026: {
         slidesPerView: 3,
       },
-      640: {
-        slidesPerView: 1,
-      },
-      414: {
-        slidesPerView: 1,
+      970: {
+        slidesPerView: 2,
       },
       320: {
         slidesPerView: 1,
