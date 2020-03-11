@@ -29,13 +29,13 @@ header {
 	text-align: center;
 }
 
-.header__body {
+.header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
 
-.header__btn {
+.btn {
 	position: relative;
 	display: none;
 }
@@ -66,19 +66,19 @@ header {
 
 
 /*  header  */
-.header__menu {
+.menu {
 	display: flex;
 	align-items: center;
 	padding-top: 26px;
 }
 
-.header__menu ul {
+.menu ul {
 	padding: 0;
 	margin: 0 auto;
 	text-decoration: none;
 }
 
-.header__menu ul li a {
+.menu ul li a {
 	padding-right: 28px;
 }
 
@@ -506,7 +506,7 @@ header {
 	font-size: 18px;
 }
 
-.footer__row	{
+.footer	{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -528,19 +528,19 @@ header {
 }
 
 /* Footer address	*/
-.footer__address {
+.address {
 	display: flex;
 	flex-direction: column;
 }
 
-.footer__address a {
+.address a {
 	font-style: normal;
 	font-size: 25px;
 	text-decoration: none;
 	color: black;
 }
 
-.footer__address a:hover {
+.address a:hover {
 	text-decoration: underline;
 	color: #fc557c;
 }
@@ -575,7 +575,7 @@ header {
 
 /* Footer connection*/
 
-.footer__connection {
+.connection {
 	padding-top: 10px;
 	padding-left: 119px;
 }
@@ -591,11 +591,11 @@ header {
 	cursor: pointer;
 }
 
-.connection__social {
+.social {
 	padding-top: 15px;
 }
 
-.connection__social ul {
+.social ul {
 	list-style-type: none;
 	padding-left: 0;
 }
@@ -609,7 +609,7 @@ header {
 
 /*	Footer bottom  */
 
-.footer__bottom {
+.bottom {
 	display: flex;
 	height: 81px;
 	margin-top: 61px;
