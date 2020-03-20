@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE>
 <html lang="ru">
 <head>
 	<title>Home site</title>
@@ -7,25 +7,48 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/css/all.css">
 	<link rel="stylesheet" href="sprites/sprite.css">
-	<link rel="stylesheet" type="text/css" href="swiper.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="media.css">
-	<script src="jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="libs/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<script src="libs/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 	<div class="scroll">
-	<header>
-		<div class="central">
-			<div class="header">
-				<div class="btn">
-					<div class="btn__burger"></div>
-				</div>
 
-				<nav class="menu">
-					<ul>
-						<li class="menu__link"><a href="#">Услуги</a></li>
-						<li class="menu__link"><a href="#">Портфолио</a></li>
-						<li class="menu__link"><a href="#">Стоимость</a></li>
+	<div class="popup">
+		<div class="central">
+			<form class="popup__form">
+				<input type="hidden" name="project_name" value="Test">
+				<input type="hidden" name="admin_email" value="activ9ka@gmail.com">
+				<input type="hidden" name="form_subject" value="Test">
+				<legend class="form__title">Оставить заявку</legend>
+					<label class="popup__name column">
+						<span class="name__pattern pattern">Введите ваше имя</span>
+						<input type="text" class="name__text input" name="name" required placeholder="Ф.И.О.">
+					</label>
+					<label class="popup__telephone column">
+						<span class="telephone__pattern pattern">Введите номер телефона</span>
+						<input type="text" class="telephone__text input" name="phone" required placeholder="+7 (999) 999-99-99">
+					</label>
+					<label class="popup__mail column">
+						<span class="mail__pattern pattern">Введите email</span>
+						<input type="text" class="mail__text input" name="mail" placeholder="mail@mail.ru">
+					</label>
+				<button type="submit" class="popup__button">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+	<header class="header">
+		<div class="central">
+			<div class="navigation">
+				<button class="btn__burger"></button>
+
+				<nav class="menu menu_burger">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+						<li class="menu__item"><a href="#examples" class="menu__link">Портфолио</a></li>
+						<li class="menu__item"><a href="#banner" class="menu__link">Стоимость</a></li>
 					</ul>
 				</nav>
 				
@@ -37,13 +60,13 @@
 		</div>
 	</header>
 
-	<main>
+	<main class="main">
 		<section class="person">
 			<div class="central">
 				<div class="info">
 					<div class="who">
 						<h1 class="who__name">Дмитрий Алексеев</h1>
-						<div class="who__profession">Frontend-разработчик и веб-верстальщик</div>
+						<p class="who__profession">Frontend-разработчик и веб-верстальщик</p>
 						<button class="who__button button">Узнать больше</button>
 					</div>
 
@@ -64,102 +87,100 @@
 					</div>
 				</div>
 
-				<span class="tags parent anim">
+				<span class="tags tags_parent anim">
 					{ }
 				</span>
-				<span class="tags hashtag anim">
+				<span class="tags tags_hashtag anim">
 					#
 				</span>
-				<span class="tags slash anim">
+				<span class="tags tags_slash anim">
 					&lt;/&gt;
 				</span>
-				<span class="tags div1 anim">
+				<span class="tags tags_div1 anim">
 					&lt;div&gt;
 				</span>
-				<span class="tags div2 anim">
+				<span class="tags tags_div2 anim">
 					&lt;div&gt;
 				</span>
-				<span class="tags slash2 anim">
+				<span class="tags tags_slash2 anim">
 					&lt;/&gt;
 				</span>
 			</div>
 		</section>
 
 		<section class="services">
+			<a href="#" name="services"></a>
 			<div class="central">
-				<div class="services__header">
-					<h2 class="services__title title">Что я делаю</h2>
-				</div>
+				<h2 class="services__title title">Что я делаю</h2>
 
 				<div class="services__row">
 					<div class="services__column">
-						<div class="item-services__tools">
-							<div class="item-services__image">
+						<div class="tools">
+							<div class="tools__image">
 								<img src="img/services/tools.png" alt="tools">
 							</div>
-							<div class="item-services__text tools">
+							<p class="tools__text text">
 								Вёрстка лендинг&mdash;страниц<br> и сайтов любой сложности
-							</div>
+							</p>
 						</div>
 					</div>
 					<div class="services__column">
-						<div class="item-services__responsive">
-							<div class="item-services__image">
+						<div class="responsive">
+							<div class="responsive__image">
 								<img src="img/services/responsive.png" alt="responsive">
 							</div>	
-							<div class="item-services__text responsive">
+							<p class="responsive__text text">
 								Адаптивная вёрстка под все<br> браузеры и устройства
-							</div>
+							</p>
 						</div>
 					</div>
 					<div class="services__column">
-						<div class="item-services__programming">
-							<div class="item-services__image">
+						<div class="programming">
+							<div class="programming__image">
 								<img src="img/services/programming.png" alt="programming">
 							</div>	
-							<div class="item-services__text programming">
+							<p class="programming__text text">
 								Frontend&mdash;разработка<br> и программирование
-							</div>
+							</p>
 						</div>
 					</div>
 					<div class="services__column">
-						<div class="item-services__coding">
-							<div class="item-services__image">
+						<div class="coding">
+							<div class="coding__image">
 								<img src="img/services/coding.png" alt="coding">
 							</div>	
-							<div class="item-services__text coding">
+							<p class="coding__text text">
 								Исправление и доработка<br> существующей вёрстки
-							</div>
+							</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="services__button">
-					<button class="info__button button">Узнать стоимость</button>
+					<button class="button__cost button">Узнать стоимость</button>
 				</div>
 			</div>
 		</section>
 
 		<section class="examples">
+			<a href="#"	name="examples"></a>
 			<div class="central">
-				<div class="examples__header">
-					<h2 class="examples__title title">Примеры моих работ</h2>
-				</div>
+				<h2 class="examples__title title">Примеры моих работ</h2>
 
 				<div class="swiper">
 					<div class="swiper-container">
 						<div class="swiper-wrapper examples__row">
 							<a href="#" class="swiper-slide examples__column">
 								<img src="img/examples/Vera.png" alt="Vera">
-								<p class="item-examples__text psych">Сайт психолога Веры Антоновой</p>
+								<p class="examples__text psych">Сайт психолога Веры Антоновой</p>
 							</a>
 							<a href="#" class="swiper-slide examples__column">
 								<img src="img/examples/baby.png" alt="baby">
-								<p class="item-examples__text store">Сайт магазина детской одежды</p>
+								<p class="examples__text store">Сайт магазина детской одежды</p>
 							</a>
 							<a href="#" class="swiper-slide examples__column">
 								<img src="img/examples/shop.png" alt="shop">
-								<p class="item-examples__text fisher">Сайт магазина &laquo;Рыболов&raquo;</p>
+								<p class="examples__text fisher">Сайт магазина &laquo;Рыболов&raquo;</p>
 							</a>
 						</div>
 					</div>
@@ -174,12 +195,13 @@
 				</div>
 
 				<div class="examples__button">
-					<button class="info__button button">Заказать проект</button>
+					<button class="button__project button">Заказать проект</button>
 				</div>
 			</div>
 		</section>
 
 		<section class="banner">
+			<a href="#" name="banner"></a>
 			<div class="central">
 				<div class="ad">
 					<h2 class="ad__title">Адаптивная вёрстка под все устройства<br> и браузеры от 1000 рублей всего за 4 часа.*</h2>
@@ -188,33 +210,33 @@
 					</p>
 				</div>
 
-				<span class="tags banner__parent anim">
+				<span class="tags banner_parent anim">
 					{ }
 				</span>
-				<span class="tags banner__parent2 anim">
+				<span class="tags banner_parent2 anim">
 					{ }
 				</span>
-				<span class="tags banner__hashtag anim">
+				<span class="tags banner_hashtag anim">
 					#
 				</span>
-				<span class="tags banner__slash anim">
+				<span class="tags banner_slash anim">
 					&lt;/&gt;
 				</span>
-				<span class="tags banner__div anim">
+				<span class="tags banner_div anim">
 					&lt;div&gt;
 				</span>
 			</div>
 		</section>
 
-		<footer>
+		<footer class="footer">
 			<div class="central">
-				<div class="footer">
+				<div class="navigation">
 					<div class="footer__column">
-						<nav class="footer__menu">
-							<ul>
-								<li class="menu__link"><a href="#">Услуги</a></li>
-								<li class="menu__link"><a href="#">Портфолио</a></li>
-								<li class="menu__link"><a href="#">Стоимость</a></li>
+						<nav class="menu menu_column">
+							<ul class="menu__list menu__list_column">
+								<li class="menu__item menu__item_column"><a href="#services" class="menu__link menu__link_color">Услуги</a></li>
+								<li class="menu__item menu__item_column"><a href="#examples" class="menu__link menu__link_color">Портфолио</a></li>
+								<li class="menu__item menu__item_column"><a href="#banner" class="menu__link menu__link_color">Стоимость</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -228,11 +250,11 @@
 						<address class="connection">
 							<button class="connection__button">Заказать звонок</button>
 							<div class="social">
-								<ul>
-									<li class="social__link"><a href="vk.com/activko" class="sprite vk" target="_blank"></a></li>
-									<li class="social__link"><a href="#" class="sprite facebook"></a></li>
-									<li class="social__link"><a href="#" class="sprite twitter"></a></li>
-									<li class="social__link"><a href="#" class="sprite instagram"></a></li>
+								<ul class="social__list">
+									<li class="social__item"><a href="vk.com/activko" class="sprite vk" target="_blank"></a></li>
+									<li class="social__item"><a href="#" class="sprite facebook"></a></li>
+									<li class="social__item"><a href="#" class="sprite twitter"></a></li>
+									<li class="social__item"><a href="#" class="sprite instagram"></a></li>
 								</ul>
 							</div>
 						</address>
@@ -246,9 +268,9 @@
 		</footer>
 	</main>
 	</div>
-	<script src="swiper.min.js"></script>
-	<script src="javascript.js"></script>
-	<script src="adaptive.js"></script>
-	<script src="tags.js"></script>
+	<script src="libs/swiper.min.js"></script>
+	<script src="js/javascript.js"></script>
+	<script src="libs/jquery.maskedinput.min.js"></script>
+	<script src="libs/jquery.validate.min.js"></script>
 </body>
 </html>
