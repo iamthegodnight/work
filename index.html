@@ -17,10 +17,10 @@
 
 	<div class="popup">
 		<div class="central">
-			<form class="popup__form">
-				<input type="hidden" name="project_name" value="Test">
-				<input type="hidden" name="admin_email" value="activ9ka@gmail.com">
-				<input type="hidden" name="form_subject" value="Test">
+			<form class="popup__form" method="POST">
+				<input type="hidden" name="project_name[]" value="Test">
+				<input type="hidden" name="admin_email[]" value="activ9ka@gmail.com">
+				<input type="hidden" name="form_subject[]" value="Test">
 				<legend class="form__title">Оставить заявку</legend>
 					<label class="popup__name column">
 						<span class="name__pattern pattern">Введите ваше имя</span>
@@ -28,7 +28,7 @@
 					</label>
 					<label class="popup__telephone column">
 						<span class="telephone__pattern pattern">Введите номер телефона</span>
-						<input type="text" class="telephone__text input" name="phone" required placeholder="+7 (999) 999-99-99">
+						<input type="tel" class="telephone__text input" name="phone" required placeholder="+7 (999) 999-99-99">
 					</label>
 					<label class="popup__mail column">
 						<span class="mail__pattern pattern">Введите email</span>
@@ -263,7 +263,7 @@
 			</div>
 
 			<div class="bottom">
-				<div class="bottom__bar">&copy; Дмитрий Алексеев, 2016 &mdash;2018</div>
+				<div class="bottom__small">&copy; Дмитрий Алексеев, 2016 &mdash;2018</div>
 			</div>
 		</footer>
 	</main>

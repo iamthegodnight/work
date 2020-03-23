@@ -69,48 +69,17 @@ $(function(){
     }
   });
 });
-$(function(){
-  $('form').each(function () {
-        $(this).validate({
-          /*errorPlacement(error, element) {
-            return true;
-          },*/
-          focusInvalid: false,
-          rules: {
-            phone: {
-              required: true,
-            },
-            name: {
-              required: true,
-              minlength: 5,
-            }
-          },
-          messages: {
-            phone: {
-              required: 'Нужно что-то ввести'
-            },
-            name: {
-              required: 'Нужно что-то ввести',
-              maxlength: 'Нужно ввести максимум 5 букв',
-            }
-          },
-          submitHandler(form) {
-          let th = $(form);
-
-          $.ajax({
+$(document).ready(function(){
+  $('.popup__form').submit(function(e){
+      e.preventDefault();
+      var form_data = $(this).serialize();
+      $.ajax({
           type: 'POST',
           url: 'mail.php',
-          data: th.serialize(),
-          // eslint-disable-next-line func-names
-        }).done(() => {
-
-          console.log('tht')
-
-          th.trigger('reset');
-        });
-
-        return false;
-        }
+          data: form_data,
+                  success: function(data){
+                      alert('ok');
+                  }
       });
-    });
+  });
 });

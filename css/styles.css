@@ -464,6 +464,7 @@ header {
 .swiper {
 	position: relative;
 	width: 100%;
+	height: auto;
 }
 
 .left {
@@ -685,7 +686,7 @@ header {
 
 }
 
-.bottom__bar {
+.bottom__small {
 	position: relative;
 	right: 2px;
 	bottom: 1px;
