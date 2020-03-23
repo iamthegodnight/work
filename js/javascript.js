@@ -61,12 +61,14 @@ $(document).ready(function(){
 // Показ формы
 $('.button, .call, .connection__button').on('click', function(){
   $('.popup').fadeIn(300);
+  $('body').addClass('stop-scrolling');
 });
 // Скрытие формы
 $(function(){
   $('.popup').click(function(event){
     if(event.target == this){
       $(this).fadeOut(300);
+      $('body').removeClass('stop-scrolling');
     }
   });
 });
