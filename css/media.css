@@ -168,11 +168,11 @@
 	/*  Person  */
 	.who__name  {
 		font-size: 54px;
-		padding: 236px 0 0 19px;
+		padding: 237px 0 0 19px;
 	}
 
 	.who__profession {
-		padding: 20px 0 46px 19px;
+		padding: 20px 0 45px 19px;
 	}
 
 	.who__button {
@@ -192,12 +192,12 @@
 	}
 
 	.man	{
-    top: 56px;
+    top: 57px;
     left: 24px;
 	}
 
 	.background	{
-		top: 168px;
+		top: 169px;
     left: -50px;
 	}
 
@@ -255,7 +255,7 @@
 	/*  Services__header  */
 
 	.services__title {
-		padding-top: 86px;
+		padding-top: 87px;
 		padding-bottom: 84px;
 		top: -2px;
     right: 14px;
@@ -264,6 +264,11 @@
 	.services__column {
 		flex: 0 0 50%;
 	}
+
+	.text	{
+		margin: 16px 0 0 0;
+	}
+
 	.tools {
 		position: relative;
   	top: 3px;
@@ -278,19 +283,20 @@
 
 	.programming {
 		position: relative;
-		top: 12px;
+		top: 28px;
   	left: 49px;
 	}
 
 	.coding {
 		position: relative;
-		top: 12px;
+		top: 28px;
   	left: -56px;
 	}
 
 	.services__button {
 		position: relative;
-		top: 9px;
+		margin-top: 66px;
+		margin-bottom: 105px;
 	}
 
 	.examples__column img {
@@ -304,7 +310,7 @@
 	.examples__button	{
 		width: 100%;
     text-align: center;
-    margin-top: 96px;
+    margin-top: 100px;
     margin-bottom: 102px;
 	}
 
@@ -313,26 +319,26 @@
 	}
 
 	.swiper-pagination {
-		margin-top: 65px;
+		margin-top: 70px;
 	}
 
 	.psych {
 		font-size: 25px;
 		font-weight: 500;
-		top: -12px;
+		top: -7px;
     right: 2px;
 	}
 
 	.store {
 		font-size: 25px;
 		font-weight: 500;
-		top: -12px;
+		top: -7px;
 	}
 
 	.fisher {
 		font-size: 25px;
 		font-weight: 500;
-		top: -12px;
+		top: -7px;
 	}
 
 	.ad {
@@ -1110,7 +1116,7 @@
 
 	.who__name {
 		font-size: 30px;
-		margin-top: 12px;
+		margin-top: 16px;
     text-align: center;
     padding: 0;
 	}
@@ -1218,7 +1224,7 @@
 	.text {
 		font-size: 16px;
 		line-height: 24px;
-		bottom: 4px;
+		bottom: 2px;
 	}
 
 	.tools {
@@ -1239,7 +1245,7 @@
 	}
 
 	.responsive__text {
-		bottom: 0;
+		bottom: -2px;
 	}
 
 	.programming {
@@ -1310,7 +1316,7 @@
 	.examples__text {
 		font-size: 18px;
 		right: 1px;
-		top: -5px;
+		top: 0px;
 	}
 
 	.swiper-pagination span {
@@ -1320,16 +1326,16 @@
 	}
 
 	.swiper-pagination	{
-		margin-top: 16px;
+		margin-top: 26px;
 	}
 
 	.examples__button {
-		margin-top: 46px;
+		margin-top: 50px;
 		margin-bottom: 51px;
 	}
 
 	.banner {
-		height: 50%;
+		height: 436px;
 	}
 	
 	.ad {
@@ -1397,7 +1403,7 @@
 	}
 
 	.menu__item {
-		padding-bottom: 14px;
+		padding-bottom: 16px;
 	}
 	
 	.connection__button {
@@ -1410,7 +1416,7 @@
 		font-weight: bold;
 		line-height: 46px;
 		padding: 0;
-		margin: 16px 0 0 0;
+		margin: 14px 0 0 0;
 	}
 
 	.fas {

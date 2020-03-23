@@ -331,7 +331,6 @@ header {
 .services__column {
 	text-align: center;
 	flex: 0 0 25%;
-	margin-bottom: 55px;
 }
 
 .services__title {
@@ -343,7 +342,7 @@ header {
 	font-size: 20px;
 	color: #8993ad;
 	line-height: 30px;
-	margin: 14px auto;
+	margin: 17px 0 0 0;
 }
 
 .tools {
@@ -372,7 +371,7 @@ header {
 
 .services__button {
 	width: 100%;
-	margin-top: 26px;
+	margin-top: 96px;
 	margin-bottom: 114px;
 	text-align: center;
 }
@@ -477,32 +476,32 @@ header {
 	right: 0;
 	top: 50%; 
 	transform: rotate(180deg) translateY(-50%);
-	margin: -69px -37px 0 0;
+	margin: -62px -37px 0 0;
 }
 
 .psych {
 	position: relative;
-	top: 8px;
+	top: 15px;
 	right: 2px;
 	font-size: 20px;
 }
 
 .store {
 	position: relative;
-	top: 9px;
+	top: 15px;
 	right: 3px;
 }
 
 .fisher {
 	position: relative;
-	top: 8px;
+	top: 15px;
 	right: 1px;
 }
 
 .examples__button {
 	width: 100%;
 	text-align: center;
-	margin-top: 84px;
+	margin-top: 89px;
 	margin-bottom: 102px;
 }
 
@@ -526,6 +525,7 @@ header {
 	font-size: 45px;
 	color: white;
 	line-height: 60px;
+	margin: 39px 0 38px 0;
 }
 
 .ad__subtitle {
@@ -593,7 +593,7 @@ header {
 }
 
 .address__link {
-	margin-top: 70px;
+	margin-top: 69px;
 }
 
 .address__link:last-child	{
@@ -615,7 +615,7 @@ header {
 }
 
 .phone {
-	padding-left: 9px;
+	padding-left: 10px;
 }
 
 .mail {
