@@ -1006,7 +1006,7 @@
 
 @media (max-width: 380px)	{
 	.popup__form	{
-		margin: 300px 20px;
+		margin: 165px 20px;
 	}
 
 	.btn__burger  {
@@ -1059,9 +1059,15 @@
 	}
 }
 
+@media	(max-width: 360px)	{
+	.popup__form	{
+		margin: 165px 10px;
+	}
+}
+
 @media	(max-width: 350px)	{
 	.popup__form{
-		margin: 300px 0;
+		margin: 165px 0;
 	}
 }
 
