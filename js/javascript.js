@@ -4,7 +4,8 @@ $(document).ready(function(){
     	loop: true,
     	slidesPerView: 3,
     	loopedSlides: 3,
-    	spaceBetween: 30,
+      spaceBetween: 30,
+      autoHeight: true,
     	navigation: {
       		nextEl: '.right',
       		prevEl: '.left',
