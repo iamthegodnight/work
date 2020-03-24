@@ -877,7 +877,7 @@
 	}
 
 	.ad__subtitle	{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.banner_div	{
 		font-size: 20px;
@@ -1034,8 +1034,8 @@
 		line-height: 40px;
 	}
 
-	.add__subtitle	{
-		font-size: 14px;
+	.ad__subtitle	{
+		font-size: 12px;
 	}
 
 	.tags_parent	{
@@ -1063,6 +1063,21 @@
 	.banner_div	{
 		display: none;
 	}
+
+	.menu__item_column	{
+		padding-bottom: 10px;
+	}
+
+	.connection__button {
+    height: 50px;
+    width: 220px;
+    border: 1px solid #ff4e2e;
+    background-color: white;
+    color: #ff4e2e;
+    font-size: 12px;
+    padding: 13px 63px;
+    cursor: pointer;
+	}
 }
 
 @media  (max-width: 415px)	{
@@ -1081,13 +1096,16 @@
 	.examples__text	{
 		font-size: 17px;
 	}
+	.banner	{
+		height: 400px;
+	}
 	.connection__button {
     height: 50px;
     width: 220px;
     border: 1px solid #ff4e2e;
     background-color: white;
     color: #ff4e2e;
-    font-size: 12px;
+    font-size: 10px;
     padding: 13px 63px;
     cursor: pointer;
 	}
