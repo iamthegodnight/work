@@ -270,7 +270,7 @@
 	}
 
 	.text	{
-		margin: 16px 0 0 0;
+		margin: 16px 0 55px 0;
 	}
 
 	.tools {
@@ -315,7 +315,7 @@
 		width: 100%;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 102px;
+    margin-bottom: 101px;
 	}
 
 	.examples__arrow	{
@@ -383,17 +383,21 @@
 	}
 
 	.menu__list_column	{
-		margin: 105px 0 0 20px;
+		margin: 106px 0 0 20px;
 	}
 
 	.address__link {
-	margin-top: 90px;
+	margin-top: 91px;
 	margin-left: -37px;
 }
 
 	.address__link:last-child {
 		margin-top: -1px;
 		margin-left: -39px;
+	}
+	
+	.social__item	{
+		margin-right: 26px;
 	}
 
 	.connection {
@@ -855,6 +859,9 @@
 	}
 
 	.connection__button	{
+		height: 55px;
+		width: 240px;
+		font-size: 14px;
 		margin: 40px 0 0 0;
 	}
 }
@@ -1071,12 +1078,12 @@
 		font-size: 17px;
 	}
 	.connection__button {
-    height: 45px;
-    width: 215px;
+    height: 50px;
+    width: 220px;
     border: 1px solid #ff4e2e;
     background-color: white;
     color: #ff4e2e;
-    font-size: 10px;
+    font-size: 12px;
     padding: 13px 63px;
     cursor: pointer;
 	}
