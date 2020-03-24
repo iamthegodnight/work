@@ -19,7 +19,7 @@ $(document).ready(function(){
       1025: {
         slidesPerView: 3,
       },
-      970: {
+      650: {
         slidesPerView: 2,
         spaceBetween: 5,
       },

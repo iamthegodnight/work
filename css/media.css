@@ -442,8 +442,16 @@
 		margin-top: 75px;
 	}
 
+	.examples__column img {
+		width: 400px;
+	}
+
+	.examples__text	{
+		font-size: 20px;
+	}
+
 	.ad__title {
-		font-size: 29px;
+		font-size: 40px;
 	}
 
 	.ad__subtitle {
@@ -521,6 +529,16 @@
 	}
 }
 
+@media	(max-width: 860px)	{
+	.examples__column img {
+		width: 350px;
+	}
+
+	.examples__text	{
+		font-size: 18px;
+	}
+}
+
 @media (max-width: 820px)	{
 	.popup__form	{
 		margin: 300px 215px;
@@ -565,6 +583,12 @@
 	.services__column	{
 		flex: 1 1 100%;
 	}
+	.ad__title {
+		font-size: 34px;
+	}
+	.text {
+		margin: 16px 0 40px 0;
+	}
 	.tools	{
 		position: static;
 	}
@@ -585,6 +609,22 @@
 	}
 	.connection	{
 		display: block;
+	}
+}
+
+@media	(max-width: 760px)	{
+	.examples__column img {
+		width: 300px;
+	}
+
+	.examples__text	{
+		font-size: 16px;
+	}
+}
+
+@media	(max-width: 751px)	{
+	.banner_div {
+    transform: rotate(22deg) translateX(56.7vw) translateY(14.7vw);
 	}
 }
 
@@ -627,6 +667,15 @@
 	.ad__title	{
 		font-size: 28px;
 	}
+
+	.banner_div {
+    transform: rotate(22deg) translateX(62.7vw) translateY(23.7vw);
+	}
+
+	.banner_slash {
+    transform: rotate(-18.9deg) translateX(68.9vw) translateY(67vw);
+	}
+
 	.address__link	{
 		font-size: 15px;
 	}
@@ -767,11 +816,11 @@
 	}
 
 	.banner_div	{
-		transform: rotate(22deg) translateX(42.7vw) translateY(31.7vw);
+		transform: rotate(22deg) translateX(42.7vw) translateY(35.7vw);
 	}
 
 	.banner_slash	{
-		transform: rotate(-18.9deg) translateX(54.9vw) translateY(59vw);
+		transform: rotate(-18.9deg) translateX(59.9vw) translateY(71vw);
 	}
 
 	.navigation	{
@@ -810,6 +859,26 @@
 	}
 }
 
+@media (max-width: 560px)	{
+	.ad__title	{
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	.ad__subtitle	{
+		font-size: 12px;
+	}
+	.banner_div	{
+		font-size: 20px;
+		transform: rotate(22deg) translateX(51.7vw) translateY(42.7vw);
+	}
+
+	.banner_slash	{
+		font-size: 28px;
+		transform: rotate(-18.9deg) translateX(64.9vw) translateY(81vw);
+	}
+}
+
 @media (max-width: 500px)	{
 	.popup__form	{
 		margin: 300px 55px;
@@ -827,7 +896,16 @@
 		width: 371px;
 	}
 	.examples__text	{
-		font-size: 22px;
+		font-size: 18px;
+	}
+	.banner_div	{
+		font-size: 20px;
+		transform: rotate(22deg) translateX(56.7vw) translateY(47.7vw);
+	}
+
+	.banner_slash	{
+		font-size: 28px;
+		transform: rotate(-18.9deg) translateX(64.9vw) translateY(88vw);
 	}
 }
 
@@ -941,8 +1019,8 @@
 	}
 
 	.ad__title	{
-		font-size: 21px;
-		line-height: 50px;
+		font-size: 26px;
+		line-height: 40px;
 	}
 
 	.add__subtitle	{
@@ -968,7 +1046,7 @@
 		transform: rotate(14deg) translateX(61.4vw) translateY(28.8vw);
 	}
 	.banner_slash	{
-		transform: rotate(-18.9deg) translateX(61.9vw) translateY(64vw);
+		transform: rotate(-18.9deg) translateX(67.9vw) translateY(72vw);
 	}
 
 	.banner_div	{
@@ -1057,17 +1135,28 @@
 	.man	{
 		left: 24px;
 	}
+	.banner_slash {
+    transform: rotate(-18.9deg) translateX(61.9vw) translateY(80vw);
+	}
 }
 
 @media	(max-width: 360px)	{
 	.popup__form	{
 		margin: 165px 10px;
 	}
+	.banner_slash {
+		font-size: 26px;
+    transform: rotate(-18.9deg) translateX(59.9vw) translateY(90vw);
+	}
 }
 
 @media	(max-width: 350px)	{
 	.popup__form{
 		margin: 165px 0;
+	}
+	
+	.ad__title	{
+		font-size: 24px;
 	}
 }
 
@@ -1203,6 +1292,7 @@
 	}
 
 	.button {
+		font-size: 16px;
 		width: 280px;
 		height: 55px;
 	}
@@ -1292,6 +1382,7 @@
 		font-size: 16px;
 		line-height: 24px;
 		bottom: 2px;
+		margin: 16px 0 16px 0;
 	}
 
 	.tools {
@@ -1358,8 +1449,8 @@
 	}
 
 	.services__button {
-		top: 7px;
-		margin-bottom: 60px;
+		margin-top: 33px;
+		margin-bottom: 53px;
 	}
 
 	.examples__column img {
@@ -1411,15 +1502,15 @@
 	}
 
 	.ad__title	{
+		margin: 23px 0 0 0;
 		font-size: 28px;
 		line-height: 40px;
 	}
 
 	.ad__subtitle	{
+		margin: 34px 0 0 0;
+		padding: 0 0 0 0;
 		font-size: 15px;
-		padding-top: 10px;
-    padding-bottom: 45px;
-    margin-top: 0;
 	}
 
 	.ad__title	br  {
@@ -1462,7 +1553,7 @@
 
 	.menu__list_column	{
 		margin-top: 0;
-		padding-top: 45px;
+		padding-top: 47px;
 	}
 
 	.menu__link_color {
@@ -1470,20 +1561,16 @@
 	}
 
 	.menu__item {
-		padding-bottom: 16px;
+		padding-bottom: 15px;
 	}
 	
-	.connection__button {
-    margin: 14px 0 0 0;
-	}
-
 	.address__link {
 		color: #8993ad;
 		font-size: 20px;
 		font-weight: bold;
 		line-height: 46px;
 		padding: 0;
-		margin: 14px 0 0 0;
+		margin: 16px 0 0 0;
 	}
 
 	.fas {
@@ -1495,7 +1582,7 @@
 	}
 
 	.fa-phone-alt {
-    padding-right: 16px;
+    padding-right: 17px;
 	}
 
 	.connection {
@@ -1507,7 +1594,8 @@
 		height: 55px;
 		background-color: #ff4e2e;
 		color: white;
-		font-size: 16px;
+		font-size: 17px;
+		margin: 14px 0 0 0;
 	}
 
 	.social	{
