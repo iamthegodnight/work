@@ -16,12 +16,12 @@ $(document).ready(function(){
         clickable: true,
       },
       breakpoints: {
-      1201: {
+      1025: {
         slidesPerView: 3,
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: 0,
       },
       300: {
         slidesPerView: 1,

@@ -112,7 +112,7 @@ header {
 .btn__burger {
 	display: none;
 	position: relative;
-	margin-top: 50px;
+	margin: 50px 0 0 0;
 	border: none;
 	outline: none;
 	width: 45px;
@@ -242,8 +242,8 @@ header {
 
 .man {
 	position: absolute;
-  top: 57px;
-  left: 92px;
+  top: 33px;
+  left: 51px;
   z-index: 1;
 }
 
@@ -358,7 +358,7 @@ header {
 	font-size: 20px;
 	color: #8993ad;
 	line-height: 30px;
-	margin: 17px 0 0 0;
+	margin: 13px 0 0 0;
 }
 
 .tools {
@@ -493,33 +493,33 @@ header {
 	right: 0;
 	top: 50%; 
 	transform: rotate(180deg) translateY(-50%);
-	margin: -62px -37px 0 0;
+	margin: -69px -37px 0 0;
 }
 
 .psych {
 	position: relative;
-	top: 15px;
+	top: 9px;
 	right: 2px;
 	font-size: 20px;
 }
 
 .store {
 	position: relative;
-	top: 15px;
+	top: 9px;
 	right: 3px;
 }
 
 .fisher {
 	position: relative;
-	top: 15px;
+	top: 9px;
 	right: 1px;
 }
 
 .examples__button {
 	width: 100%;
 	text-align: center;
-	margin-top: 90px;
-	margin-bottom: 101px;
+	margin-top: 83px;
+	margin-bottom: 103px;
 }
 
 /*	Banner	*/
@@ -635,7 +635,6 @@ header {
 }
 
 .mail {
-	padding-top: 1px;
 	padding-left: 10px;
 }
 
@@ -701,7 +700,7 @@ header {
 .bottom {
 	display: flex;
 	height: 81px;
-	margin-top: 61px;
+	margin-top: 60px;
 	background-color: #31293c;
 	justify-content: center;
 	align-items: center;
@@ -711,7 +710,7 @@ header {
 .bottom__small {
 	position: relative;
 	right: 2px;
-	bottom: 1px;
+	bottom: 2px;
 	color: white;
 	font-size: 16px;
 }

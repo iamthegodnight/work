@@ -84,8 +84,8 @@
 	}
 
 	.man	{
-    top: 57px;
-    left: 24px;
+    top: 33px;
+    left: 20px;
 	}
 
 	.background	{
@@ -321,7 +321,8 @@
 	}
 
 	.btn__burger	{
-		display: block;
+    display: block;
+    margin: 50px 0 0 20px;
 	}
 
 	.btn__burger.active {
@@ -374,8 +375,8 @@
 	}
 
 	.man	{
-    top: 57px;
-    left: 24px;
+    top: 33px;
+    left: -17px;
 	}
 
 	.background	{
@@ -448,7 +449,7 @@
 	}
 
 	.text	{
-		margin: 16px 0 55px 0;
+		margin: 12px 0 55px 0;
 	}
 
 	.tools {
@@ -492,7 +493,7 @@
 	.examples__button	{
 		width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 96px;
     margin-bottom: 101px;
 	}
 
@@ -502,28 +503,28 @@
 
 	.swiper-pagination {
     display: block;
-		margin-top: 70px;
+		margin-top: 65px;
 	}
 
 	.psych {
 		font-size: 25px;
 		font-weight: 500;
-		top: -7px;
-    right: 2px;
+		top: -11px;
+    right: 3px;
 	}
 
 	.store {
 		font-size: 25px;
 		font-weight: 500;
-		top: -7px;
+		top: -11px;
 	}
 
 	.fisher {
 		font-size: 25px;
 		font-weight: 500;
-		top: -7px;
-	}
-
+		top: -11px;
+  }
+  
 	.ad {
 		top: 36px;
     left: 20px;
@@ -559,7 +560,11 @@
 
 	.banner_hashtag	{
 		display: none;
-	}
+  }
+  
+  .menu__item_column {
+    padding-bottom: 11px;
+  }
 
 	.menu__list_column	{
 		margin: 106px 0 0 20px;
@@ -578,7 +583,11 @@
 	.address__link:last-child {
 		margin-top: -1px;
 		margin-left: -39px;
-	}
+  }
+  
+  .mail {
+    padding-top: 1px;
+  }
 	
 	.social__item	{
 		margin-right: 26px;
@@ -590,7 +599,7 @@
 	}
 
 	.connection__button	{
-		margin-top: 99px;
+		margin-top: 101px;
 	}
 }
 
@@ -687,13 +696,12 @@
 	}
 
 	.man 	{
-		position: relative;
-		top: 100px;
-    left: 15px;
+		top: 55px;
+    left: -19px;
 	}
 
 	.man img  {
-		width: 290px;
+		width: 400px;
 	}
 
 	.background	{
@@ -1016,12 +1024,12 @@
 
 	.man 	{
 		position: relative;
-		top: 0px;
-    left: 158px;
+		top: 2px;
+    left: 110px;
 	}
 
 	.man img  {
-		width: 290px;
+		width: 360px;
 	}
 
 	.background	{
@@ -1372,7 +1380,7 @@
 
 	.man {
     position: relative;
-    top: 0;
+    top: 47px;
     left: 0;
 	}
 
@@ -1381,13 +1389,13 @@
 	}
 
 	.background {
-    top: -2px;
-    left: -41px;
+    top: 17px;
+    left: 10px;
 	}
 
 	.background	img {
-    width: 600px;
-    height: 427px;
+    width: 450px;
+    height: 370px;
   }
 
   .tags_parent {
@@ -1703,7 +1711,7 @@
     flex-wrap: wrap;
     justify-content: center;
 		order: 2;
-		margin-top: 76px;
+		margin-top: 72px;
 	}
 
 	.who__name {
@@ -1818,7 +1826,7 @@
 		font-size: 16px;
 		line-height: 24px;
 		bottom: 2px;
-		margin: 16px 0 16px 0;
+		margin: 12px 0 16px 0;
 	}
 
 	.tools {
@@ -1908,8 +1916,9 @@
 	}
 
 	.examples__text {
+    margin: 14px 0 0 0;
 		font-size: 18px;
-		right: 1px;
+		right: 0px;
 		top: 0px;
 	}
 
@@ -1921,7 +1930,7 @@
 
 	.swiper-pagination	{
     display: block;
-		margin-top: 26px;
+		margin-top: 38px;
   }
   
   .examples__arrow  {
@@ -1929,7 +1938,7 @@
   }
 
 	.examples__button {
-		margin-top: 50px;
+		margin-top: 46px;
 		margin-bottom: 51px;
 	}
 
@@ -1994,7 +2003,7 @@
 
 	.menu__list_column	{
 		margin-top: 0;
-		padding-top: 47px;
+		padding-top: 44px;
 	}
 
 	.menu__link_color {
@@ -2041,7 +2050,7 @@
 	}
 
 	.social	{
-		padding-top: 35px;
+		padding-top: 34px;
 	}
 
 	.social__item	{
