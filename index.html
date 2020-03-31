@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<title>Home site</title>
@@ -21,7 +21,7 @@
 				<input type="hidden" name="project_name[]" value="Test">
 				<input type="hidden" name="admin_email[]" value="activ9ka@gmail.com">
 				<input type="hidden" name="form_subject[]" value="Test">
-				<legend class="form__title">Оставить заявку</legend>
+				<p class="form__title">Оставить заявку</p>
 					<label class="popup__name column">
 						<span class="name__pattern pattern">Введите ваше имя</span>
 						<input type="text" class="name__text input" name="name" required placeholder="Ф.И.О.">
@@ -32,7 +32,7 @@
 					</label>
 					<label class="popup__mail column">
 						<span class="mail__pattern pattern">Введите email</span>
-						<input type="text" class="mail__text input" name="mail" placeholder="mail@mail.ru">
+						<input type="text" class="mail__text input" name="mail" required placeholder="mail@mail.ru">
 					</label>
 				<button type="submit" class="popup__button">Отправить</button>
 			</form>
@@ -73,7 +73,7 @@
 					<div class="image">
 						<div class="man">
 							<picture>
-								<source media="(max-width:320px)" srcset="img/man_mobile.svg">
+								<source media="(max-width:320px)" srcset="img/person/man_mobile.svg">
 								<img src="img/person/dmitriy.svg" alt="photo-dmitriy">
 							</picture>	
 						</div>
@@ -85,26 +85,15 @@
 							</picture>
 						</div>
 					</div>
-				</div>
 
-				<span class="tags tags_parent anim">
-					{ }
-				</span>
-				<span class="tags tags_hashtag anim">
-					#
-				</span>
-				<span class="tags tags_slash anim">
-					&lt;/&gt;
-				</span>
-				<span class="tags tags_div1 anim">
-					&lt;div&gt;
-				</span>
-				<span class="tags tags_div2 anim">
-					&lt;div&gt;
-				</span>
-				<span class="tags tags_slash2 anim">
-					&lt;/&gt;
-				</span>
+					<span class="tags tags_parent anim">{ }</span>
+					<span class="tags tags_hashtag anim">#</span>
+					<span class="tags tags_slash anim">&lt;/&gt;</span>
+					<span class="tags tags_div1 anim">&lt;div&gt;</span>
+					<span class="tags tags_div2 anim">&lt;div&gt;</span>
+					<span class="tags tags_slash2 anim">&#60;/&#62;</span>
+
+				</div>
 			</div>
 		</section>
 
@@ -170,15 +159,15 @@
 				<div class="swiper">
 					<div class="swiper-container">
 						<div class="swiper-wrapper examples__row">
-							<a href="#" class="swiper-slide examples__column">
+							<a href="" class="swiper-slide examples__column">
 								<img src="img/examples/Vera.png" alt="Vera">
 								<p class="examples__text psych">Сайт психолога Веры Антоновой</p>
 							</a>
-							<a href="#" class="swiper-slide examples__column">
+							<a href="" class="swiper-slide examples__column">
 								<img src="img/examples/baby.png" alt="baby">
 								<p class="examples__text store">Сайт магазина детской одежды</p>
 							</a>
-							<a href="#" class="swiper-slide examples__column">
+							<a href="" class="swiper-slide examples__column">
 								<img src="img/examples/shop.png" alt="shop">
 								<p class="examples__text fisher">Сайт магазина &laquo;Рыболов&raquo;</p>
 							</a>
@@ -210,21 +199,11 @@
 					</p>
 				</div>
 
-				<span class="tags banner_parent anim">
-					{ }
-				</span>
-				<span class="tags banner_parent2 anim">
-					{ }
-				</span>
-				<span class="tags banner_hashtag anim">
-					#
-				</span>
-				<span class="tags banner_slash anim">
-					&lt;/&gt;
-				</span>
-				<span class="tags banner_div anim">
-					&lt;div&gt;
-				</span>
+				<span class="tags banner_parent anim"> { } </span>
+				<span class="tags banner_parent2 anim"> { } </span>
+				<span class="tags banner_hashtag anim">	# </span>
+				<span class="tags banner_slash anim"> &lt;/&gt; </span>
+				<span class="tags banner_div anim"> &lt;div&gt; </span>
 			</div>
 		</section>
 
@@ -242,8 +221,8 @@
 					</div>
 					<div class="footer__column">
 						<address class="address">
-							<a href="#" class="address__link phone"><i class="fas fa-phone-alt"></i>+7 (499) 995-77-55</a>
-							<a href="#" class="address__link mail"><i class="fas fa-envelope"></i>dmitry@alekseev.com</a>
+							<a href="tel:+79250652921" class="address__link phone"><i class="fas fa-phone-alt"></i>+7 (499) 995-77-55</a>
+							<a href="mailto:mayhap@bk.ru" class="address__link mail"><i class="fas fa-envelope"></i>dmitry@alekseev.com</a>
 						</address>
 					</div>
 					<div class="footer__column">
@@ -251,10 +230,10 @@
 							<button class="connection__button">Заказать звонок</button>
 							<div class="social">
 								<ul class="social__list">
-									<li class="social__item"><a href="vk.com/activko" class="sprite vk" target="_blank"></a></li>
-									<li class="social__item"><a href="#" class="sprite facebook"></a></li>
-									<li class="social__item"><a href="#" class="sprite twitter"></a></li>
-									<li class="social__item"><a href="#" class="sprite instagram"></a></li>
+									<li class="social__item"><a href="https://vk.com" class="sprite vk" target="_blank"></a></li>
+									<li class="social__item"><a href="https://facebook.com" class="sprite facebook"></a></li>
+									<li class="social__item"><a href="https://twitter.com" class="sprite twitter"></a></li>
+									<li class="social__item"><a href="https://instagram.com" class="sprite instagram"></a></li>
 								</ul>
 							</div>
 						</div>

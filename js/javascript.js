@@ -16,14 +16,14 @@ $(document).ready(function(){
         clickable: true,
       },
       breakpoints: {
-      1025: {
+      1201: {
         slidesPerView: 3,
       },
-      650: {
+      768: {
         slidesPerView: 2,
-        spaceBetween: 5,
+        spaceBetween: 30,
       },
-      320: {
+      300: {
         slidesPerView: 1,
       },
     },
@@ -46,7 +46,7 @@ $(function($){
     if( ! $target.length ) return;
     e.preventDefault();
     $('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 800, 'swing', function(){
-    window.location.hash = hash;
+    window.location.hash = string;
     });
   });
 });
@@ -72,6 +72,8 @@ $(function(){
     }
   });
 });
+
+//Отправка формы
 $(document).ready(function(){
   $('.popup__form').submit(function(e){
       e.preventDefault();

@@ -28,7 +28,7 @@ header {
 }
 
 .popup	{
-	background-image: url('../img/111.png');
+	background-image: url('../img/form/background.png');
 	display: none;
 	position: fixed;
 	width: 100%;
@@ -43,7 +43,9 @@ header {
 	width: 350px;
 	height: 350px;
 	background-color: white;
-	margin: 150px 400px;
+	top: 35%;
+	left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .form__title {
@@ -76,8 +78,8 @@ header {
 .input	{
 	width: 300px;
 	margin: 0 0 0 0;
-	padding: 2px 0 2px 5px;
-	font-size: 12px;
+	padding: 4px 0 4px 5px;
+	font-size: 14px;
 	border-radius: 3px;
 	border: 1px solid #8993ad;
 	outline: none;
@@ -89,7 +91,7 @@ header {
 	color: #ffffff;
 	background-color: #ff4e2e;
 	border: 1px solid #ff4e2e;
-	margin: 30px 0 0 20px;
+	margin: 20px 0 0 20px;
 }
 
 .title {
@@ -111,7 +113,6 @@ header {
 	display: none;
 	position: relative;
 	margin-top: 50px;
-	margin-left: 20px;
 	border: none;
 	outline: none;
 	width: 45px;
@@ -163,8 +164,7 @@ header {
 }
 
 .menu__link:hover {
-	transition-duration: 0.5s;
-	text-decoration: underline;
+	transition-duration: 0.6s;
 	color: #fc557c;
 }
 
@@ -182,7 +182,6 @@ header {
 .contacts__telephone:hover {
 	transition-duration: 0.5s;
 	color: #fc557c;
-	text-decoration: underline;
 }
 
 .contacts__button {
@@ -193,6 +192,12 @@ header {
 	font-family: 'Roboto';
 	font-size: 16px;
 	cursor: pointer;
+}
+
+.contacts__button:hover	{
+	border: 1px solid #ff2f96;
+	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+	color: #fbfbfb;
 }
 
 .call {
@@ -232,6 +237,7 @@ header {
 
 .image	{
 	position: relative;
+	object-fit: cover;
 }
 
 .man {
@@ -259,6 +265,11 @@ header {
 	outline: none;
 }
 
+.button:hover	{
+	border: 1px solid #ff2f96;
+	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+}
+
 /*  Tags  */
 .tags.anim {
 	transform: translateX(0) translateY(0);
@@ -268,13 +279,13 @@ header {
 	position: absolute;
 	left: 0;
 	top: 0;
-	transition: all 0.5s ease-in-out;
+	transition-duration: 0.3s;
 	font-weight: bold;
 }
 
 .tags_parent {
 	background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
-	background-clip: text;
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 48px;
@@ -283,7 +294,7 @@ header {
 
 .tags_hashtag {
 	background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
-	background-clip: text;
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 55px;
@@ -292,7 +303,7 @@ header {
 
 .tags_slash {
 	background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
-	background-clip: text;
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 40px;
@@ -305,7 +316,7 @@ header {
 
 .tags_div1 {
 	background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
-	background-clip: text;
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 29px;
@@ -314,7 +325,7 @@ header {
 
 .tags_div2 {
 	background-image: linear-gradient(to top, #f26522 0%, #fa0891 99%, #fa0891 100%);
-	background-clip: text;
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	color: transparent;
 	font-size: 37px;
@@ -397,6 +408,7 @@ header {
 }
 
 .swiper-pagination {
+	display: none;
 	width: 100%;
 	position: relative;
 	margin-top: 76px;
@@ -615,7 +627,6 @@ header {
 
 .address__link:hover {
 	transition-duration: 0.5s;
-	text-decoration: underline;
 	color: #fc557c;
 }
 
@@ -661,6 +672,12 @@ header {
 	padding: 13px 63px;
 	cursor: pointer;
 	outline: none;
+}
+
+.connection__button:hover	{
+	border: 1px solid #ff2f96;
+	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+	color: #fbfbfb;
 }
 
 .social {
