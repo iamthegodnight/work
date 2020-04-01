@@ -45,9 +45,7 @@ $(function($){
     var $target = _hash === '' ? $('body') : $( hash + ', a[name="'+ _hash +'"]').first();
     if( ! $target.length ) return;
     e.preventDefault();
-    $('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 800, 'swing', function(){
-    window.location.hash = string;
-    });
+    $('html, body').stop().animate({ scrollTop: $target.offset().top - 0 }, 800, 'swing');
   });
 });
 // Анимация тегов

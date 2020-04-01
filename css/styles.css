@@ -43,7 +43,7 @@ header {
 	width: 350px;
 	height: 350px;
 	background-color: white;
-	top: 35%;
+	top: 50%;
 	left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -195,8 +195,9 @@ header {
 }
 
 .contacts__button:hover	{
+	transition: all 1s;
 	border: 1px solid #ff2f96;
-	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+	background: #ff2f96;
 	color: #fbfbfb;
 }
 
@@ -266,8 +267,9 @@ header {
 }
 
 .button:hover	{
+	transition: all 1s;
 	border: 1px solid #ff2f96;
-	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+	background: #ff2f96;
 }
 
 /*  Tags  */
@@ -452,7 +454,7 @@ header {
 }
 
 .examples__column:hover {
-	text-decoration: underline;
+	transition: all 1s;
 	color: #fc557c;
 }
 
@@ -674,8 +676,9 @@ header {
 }
 
 .connection__button:hover	{
+	transition: all 1s;
 	border: 1px solid #ff2f96;
-	background: linear-gradient(to top, #f26522 0%, #ff2f96 99%, #ff2f96 100%);
+	background: #ff2f96;
 	color: #fbfbfb;
 }
 
