@@ -32,9 +32,7 @@ $(document).ready(function(){
 // Меню бургер
 $(function(){
   $('.btn__burger').click(function(){
-    $('.btn__burger').toggleClass('active');
-    $('.menu_burger').toggle('active');
-    $('.menu_burger').css('display','flex');
+    $('.btn__burger, .menu').toggleClass('active');
   });
 });
 // Переход на странице по якорю
