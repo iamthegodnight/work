@@ -41,7 +41,7 @@ header {
 	flex-direction: column;
 	position: absolute;
 	width: 350px;
-	height: 350px;
+	height: 400px;
 	background-color: white;
 	top: 50%;
 	left: 50%;
@@ -61,6 +61,30 @@ header {
 	right: 0;
 	left: 0;
 	margin: 40px 0 0 0;
+}
+
+.form__exit {
+	position: absolute;
+	top: 8%;
+	left: 88%;
+	border: none;
+	background-color: #ff4e2e;
+	width: 20px;
+	height: 2px;
+	transform: rotate(45deg);
+	outline: none;
+	cursor: pointer;
+}
+
+.form__exit:after {
+	content: '';
+	position: absolute;
+	background-color: #ff4e2e;
+	width: 20px;
+	height: 2px;
+	transform: rotate(-90deg);
+	left: 0;
+	top: 0;
 }
 
 .column {
@@ -85,6 +109,64 @@ header {
 	outline: none;
 }
 
+.popup__check {
+	margin: 15px 0 0 20px;
+	font-size: 14px;
+}
+
+.check__input {
+	display: none;
+}
+
+.check__text {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+
+.check__text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	background-color: #f1eaea;
+	border: 1px solid #7c7c7c;
+	border-radius: 2px;
+}
+
+.popup__check input:checked + .check__text::after	{
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.check__text::after {
+	content: '\2713';
+	position: absolute;
+	left: 1px;
+	top: -3px;
+	width: 12px;
+	height: 12px;
+	font-weight: bold;
+	color: #ff2f96;
+	opacity: 0;
+	transition: opacity 0.3s;
+	cursor: pointer;
+}
+
+.text_orange {
+	text-decoration: none;
+	color: #ff4e2e;
+}
+
+.text_orange:hover {
+	transition: all 1s;
+	color: #ff2f96;
+	text-decoration: underline;
+}
+
 .popup__button	{
 	width: 150px;
 	height: 35px;
@@ -92,6 +174,13 @@ header {
 	background-color: #ff4e2e;
 	border: 1px solid #ff4e2e;
 	margin: 20px 0 0 20px;
+}
+
+.popup__button:hover	{
+	cursor: pointer;
+	transition: all 1s;
+	border: 1px solid #ff2f96;
+	background: #ff2f96;
 }
 
 .title {
@@ -118,6 +207,7 @@ header {
 	width: 45px;
 	height: 6px;
 	background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+	transition: all 0.3s ease 0s;
 }
 
 .btn__burger:before	{
@@ -128,6 +218,7 @@ header {
 	position: absolute;
 	top: -14px;
 	left: 0;
+	transition: all 0.3s ease 0s;
 }
 
 .btn__burger:after {
@@ -138,6 +229,7 @@ header {
 	position: absolute;
 	top: 14px;
 	left: 0;
+	transition: all 0.3s ease 0s;
 }
 
 
@@ -166,6 +258,15 @@ header {
 .menu__link:hover {
 	transition-duration: 0.6s;
 	color: #fc557c;
+}
+
+.menu_burger {
+	top: -100%;
+	left: 0;
+}
+.menu_burger.active {
+	top: 0;
+	transition: all 0.5s ease 0s;
 }
 
 .contacts__telephone {
@@ -292,6 +393,7 @@ header {
 	color: transparent;
 	font-size: 48px;
 	transform: rotate(26.5deg) translateX(9.1vw) translateY(3.1vw);
+	transition-duration: 1s;
 }
 
 .tags_hashtag {
@@ -301,6 +403,7 @@ header {
 	color: transparent;
 	font-size: 55px;
 	transform: rotate(16.5deg) translateX(17.7vw) translateY(14.4vw);
+	transition-duration: 0.7s;
 }
 
 .tags_slash {
@@ -310,6 +413,7 @@ header {
 	color: transparent;
 	font-size: 40px;
 	transform: rotate(-20.8deg) translateX(6vw) translateY(39.4vw);
+	transition-duration: 0.5s;
 }
 
 .tags_slash2 {
@@ -323,6 +427,7 @@ header {
 	color: transparent;
 	font-size: 29px;
 	transform: rotate(-14deg) translateX(37.8vw) translateY(18.2vw);
+	transition-duration: 0.7s;
 }
 
 .tags_div2 {
@@ -332,6 +437,7 @@ header {
 	color: transparent;
 	font-size: 37px;
 	transform: rotate(21deg) translateX(56.3vw) translateY(8.4vw);
+	transition-duration: 0.6s;
 }
 
 /*	Services	*/
@@ -544,44 +650,58 @@ header {
 	font-size: 45px;
 	color: white;
 	line-height: 60px;
-	margin: 38px 0 38px 0;
+	margin: 38px 0 0 0;
+}
+
+.ad__title br:last-child {
+	display: none;
 }
 
 .ad__subtitle {
 	color: white;
 	font-size: 18px;
 	line-height: 30px;
-	margin-top: -9px;
+	margin: 28px 0 0 15px;
+	text-indent: -0.8em;
+}
+
+.ad__subtitle_note	{
+	font-size: 20px;
 }
 
 .banner_parent {
 	color: white;
 	font-size: 48px;
 	transform: rotate(26.5deg) translateX(7.4vw) translateY(-0.3vw);
+	transition: 0.8s;
 }
 
 .banner_parent2 {
 	color: white;
 	font-size: 48px;
 	transform: rotate(-18deg) translateX(83.4vw) translateY(41.1vw);
+	transition: 0.8s;
 }
 
 .banner_hashtag {
 	color: white;
 	font-size: 53px;
 	transform: rotate(15deg) translateX(15.8vw) translateY(9.2vw);
+	transition: 0.7s;
 }
 
 .banner_slash {
 	color: white;
 	font-size: 40px;
 	transform: rotate(-21deg) translateX(79.2vw) translateY(34.5vw);
+	transition: 0.7s;
 }
 
 .banner_div {
 	color: white;
 	font-size: 37px;
 	transform: rotate(23deg) translateX(74.4vw) translateY(-14.5vw);
+	transition: 0.5s;
 }
 /*	Footer  */
 /* Footer menu*/

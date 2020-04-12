@@ -28,6 +28,7 @@
 				<input type="hidden" name="admin_email[]" value="activ9ka@gmail.com">
 				<input type="hidden" name="form_subject[]" value="Test">
 				<p class="form__title">Оставить заявку</p>
+					<button type="button" class="form__exit"></button>
 					<label class="popup__name column">
 						<span class="name__pattern pattern">Введите ваше имя</span>
 						<input type="text" class="name__text input" name="name" required placeholder="Ф.И.О.">
@@ -39,6 +40,10 @@
 					<label class="popup__mail column">
 						<span class="mail__pattern pattern">Введите email</span>
 						<input type="text" class="mail__text input" name="mail" required placeholder="mail@mail.ru">
+					</label>
+					<label class="popup__check">
+						<input type="checkbox" class="check__input" required>
+						<span class="check__text">Я ознакомлен и согласен с <a href="#" target="_blank" class="text_orange">Политикой конфиденциальности</a></span>
 					</label>
 				<button type="submit" class="popup__button">Отправить</button>
 			</form>
@@ -199,9 +204,9 @@
 			<a href="#" name="banner"></a>
 			<div class="central">
 				<div class="ad">
-					<h2 class="ad__title">Адаптивная вёрстка под все устройства<br> и браузеры от 1000 рублей всего за 4 часа.*</h2>
+					<h2 class="ad__title">Адаптивная вёрстка под все устройства<br> и браузеры от 1000 рублей всего<br> за 4 часа.*</h2>
 					<p class="ad__subtitle">
-							* Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,<br>&nbsp;&nbsp; в зависимости от сложности задач. 
+						<span class="ad__subtitle_note">*</span> Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,<br> в зависимости от сложности задач. 
 					</p>
 				</div>
 
@@ -236,9 +241,9 @@
 							<button class="connection__button">Заказать звонок</button>
 							<div class="social">
 								<ul class="social__list">
-									<li class="social__item"><a href="https://vk.com" class="sprite vk" target="_blank"></a></li>
-									<li class="social__item"><a href="https://facebook.com" class="sprite facebook"></a></li>
-									<li class="social__item"><a href="https://twitter.com" class="sprite twitter"></a></li>
+									<li class="social__item"><a href="http://vk.com/share.php?url=http://happystudying.ru/" target="_blank" class="sprite vk" target="_blank"></a></li>
+									<li class="social__item"><a href="https://www.facebook.com/sharer/sharer.php?u=http://happystudying.ru/" class="sprite facebook"></a></li>
+									<li class="social__item"><a href="http://twitter.com/share?text=http://happystudying.ru/" class="sprite twitter"></a></li>
 									<li class="social__item"><a href="https://instagram.com" class="sprite instagram"></a></li>
 								</ul>
 							</div>

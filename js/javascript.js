@@ -18,6 +18,7 @@ $(document).ready(function(){
       breakpoints: {
       1025: {
         slidesPerView: 3,
+        spaceBetween: 30,
       },
       768: {
         slidesPerView: 2,
@@ -66,6 +67,12 @@ $(function(){
       $(this).fadeOut(300);
       $('body').removeClass('stop-scrolling');
     }
+  });
+});
+$(function(){
+  $('.form__exit').click(function(){
+    $('.popup').hide();
+    $('body').removeClass('stop-scrolling');
   });
 });
 

@@ -5,7 +5,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 48px;
-    transform: rotate(26.5deg) translateX(9.1vw) translateY(3.1vw);
+		transform: rotate(26.5deg) translateX(9.1vw) translateY(3.1vw);
   }
   
   .tags_hashtag {
@@ -14,7 +14,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 55px;
-    transform: rotate(16.5deg) translateX(8.7vw) translateY(24.4vw);
+		transform: rotate(16.5deg) translateX(8.7vw) translateY(24.4vw);
   }
   
   .tags_slash {
@@ -23,7 +23,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 40px;
-    transform: rotate(-20.8deg) translateX(6vw) translateY(47.4vw);
+		transform: rotate(-20.8deg) translateX(6vw) translateY(47.4vw);
   }
   
   .tags_slash2 {
@@ -36,7 +36,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 29px;
-    transform: rotate(-14deg) translateX(37.8vw) translateY(18.2vw);
+		transform: rotate(-14deg) translateX(37.8vw) translateY(18.2vw);
   }
   
   .tags_div2 {
@@ -45,7 +45,7 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 37px;
-    transform: rotate(21deg) translateX(56.3vw) translateY(8.4vw);
+		transform: rotate(21deg) translateX(56.3vw) translateY(8.4vw);
   }
 }
 
@@ -219,21 +219,18 @@
 	}
 
 	.psych {
-		font-size: 25px;
-		font-weight: 500;
+		font-size: 20px;
 		top: -7px;
     right: 2px;
 	}
 
 	.store {
-		font-size: 25px;
-		font-weight: 500;
+		font-size: 20px;
 		top: -7px;
 	}
 
 	.fisher {
-		font-size: 25px;
-		font-weight: 500;
+		font-size: 20px;
 		top: -7px;
 	}
 
@@ -543,6 +540,10 @@
 		line-height: 60px;
 	}
 
+	.ad__subtitle {
+		margin: 29px 0 0 15px;
+	}
+
 	.banner_parent	{
 		font-size: 29px;
 		font-weight: 700;
@@ -567,7 +568,11 @@
 
 	.banner_hashtag	{
 		display: none;
-  }
+	}
+	
+	.menu_column {
+		display: block;
+	}
   
   .menu__item_column {
     padding-bottom: 11px;
@@ -623,7 +628,11 @@
   margin-top: 77px;
   background-color: #fbfbfb;
   z-index: 50;
-  justify-content: center;
+	justify-content: center;
+}
+
+.menu_burger .active {
+	transition: 3s;
 }
 
 .menu__list {
@@ -654,25 +663,23 @@
 }
 
 .btn__burger	{
-  display: block;
+	display: block;
 }
 
 .btn__burger.active {
   background-image: none;
   background: none;
-  outline: none;
+	outline: none;
 }
 
 .btn__burger.active:before {
   top: 0;
-  transform: rotate(45deg);
-  transition: all 0.3s ease 0s;
+  transform: rotate(45deg); 
 }
 
 .btn__burger.active:after {
   top: 0;
   transform: rotate(-45deg);
-  transition: all 0.3s ease 0s;
   }
 
   .who	{
@@ -953,13 +960,11 @@
   .btn__burger.active:before {
     top: 0;
     transform: rotate(45deg);
-    transition: all 0.3s ease 0s;
   }
   
   .btn__burger.active:after {
     top: 0;
     transform: rotate(-45deg);
-    transition: all 0.3s ease 0s;
   }
 
   .contacts__telephone	{
@@ -1221,7 +1226,12 @@
 @media (min-width: 321px) and (max-width: 480px)	{
   .popup__form  {
     width: 290px;
-  }
+	}
+	
+	.form__exit {
+		top: 9%;
+		left: 86%;
+	}	
 
   .input  {
     width: 240px;
@@ -1305,13 +1315,11 @@
 	.btn__burger.active:before {
 		top: 0;
 		transform: rotate(45deg);
-		transition: all 0.3s ease 0s;
 	}
 
 	.btn__burger.active:after {
 		top: 0;
 		transform: rotate(-45deg);
-		transition: all 0.3s ease 0s;
   }
 
   .contacts__telephone	{
@@ -1606,13 +1614,11 @@
 	.btn__burger.active:before {
 		top: 0;
 		transform: rotate(45deg);
-		transition: all 0.3s ease 0s;
 	}
 
 	.btn__burger.active:after {
 		top: 0;
 		transform: rotate(-45deg);
-		transition: all 0.3s ease 0s;
 	}
 	
 	.menu.active {
@@ -1972,17 +1978,13 @@
 	}
 
 	.ad__subtitle	{
-		margin: 34px 0 0 0;
+		margin: 31px 0 0 13px;
 		padding: 0 0 0 0;
 		font-size: 15px;
 	}
 
-	.ad__title	br  {
-		display: none;
-	}
-
-	.ad__subtitle br {
-		display: none;
+	.ad__title br:last-child {
+		display: block;
 	}
 
 	.banner_parent {
