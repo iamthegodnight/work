@@ -85,6 +85,7 @@ header {
 	transform: rotate(-90deg);
 	left: 0;
 	top: 0;
+	cursor: pointer;
 }
 
 .column {
