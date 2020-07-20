@@ -64,9 +64,17 @@ header {
 }
 
 .form__exit {
-	position: absolute;
-	top: 8%;
-	left: 88%;
+	width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 5%;
+  left: 88%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.form__exit-button {
+	padding: 0 0 0 0;
 	border: none;
 	background-color: #ff4e2e;
 	width: 20px;
@@ -76,7 +84,7 @@ header {
 	cursor: pointer;
 }
 
-.form__exit:after {
+.form__exit-button:after {
 	content: '';
 	position: absolute;
 	background-color: #ff4e2e;

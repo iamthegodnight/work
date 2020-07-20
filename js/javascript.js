@@ -70,7 +70,7 @@ $(function(){
   });
 });
 $(function(){
-  $('.form__exit').click(function(){
+  $(' .form__exit').click(function(){
     $('.popup').hide();
     $('body').removeClass('stop-scrolling');
   });
